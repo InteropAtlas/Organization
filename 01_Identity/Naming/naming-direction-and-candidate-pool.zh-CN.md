@@ -142,6 +142,40 @@ Product Philosophy
 
 `Limenn` · `Lymmen` · `Horizzon` · `Middst` · `Verrge` · `Brinnk` · `Eddge`
 
+### 2.8 语义空间扩展方向：Commons → Perspective → Creation
+
+多轮独立命名探索暴露出一个结构性缺口：现有语义场对“公共知识”展开较充分，但对产品哲学中的“视角属于个人”展开不足。后续生成不再只把现有语义场视为七个平铺类别，而优先使用以下三域结构理解命名空间：
+
+1. **Commons / 共同世界** — 公共、共享、知识、连接、流动与表达；
+2. **Perspective / 个人视角** — 同一个共同知识世界如何被不同主体观看、理解、投影与解释；
+3. **Creation / 创造与未知** — 个人视角如何走向新的知识、方法、作品、标准、问题与可能性，并重新进入共同世界。
+
+可将其理解为一个循环：
+
+```text
+Commons → Perspective → Creation → Commons ↺
+```
+
+其中 `Flow / Transformation / Continuity` 更适合作为贯穿三域的运动语义，而不必与三大核心域平铺并列。
+
+**Perspective 可继续探索的关键词 / 词根方向：**
+
+`perspective` · `view` · `vantage` · `vista` · `lens` · `aspect` · `position` · `standpoint` · `frame` · `projection` · `interpretation` · `perception` · `prism` · `facet` · `spect`
+
+这里的重点不是“个人主义”，也不只是寻找 `individual / self / personal` 的同义词，而是表达：**共同世界可以共享，但不同主体拥有不同的观看位置与解释。**
+
+**Creation / Frontier 可继续扩展的关键词 / 词根方向：**
+
+`create` · `make` · `poiesis` · `new` · `novum` · `become` · `emerge` · `frontier` · `threshold` · `horizon` · `unknown` · `beyond` · `possibility`
+
+原有 Boundary 方向因此可进一步锐化：它不仅表示一般性的“边界”，也可以表示 **Known ↔ Unknown 的创造前沿**。
+
+**Continuity 可继续探索的辅助方向：**
+
+`continue` · `continuity` · `recur` · `return` · `cycle` · `perennial` · `renew` · `tide`
+
+Continuity 暂不作为独立一级语义域，而用于表达“新的创造重新进入 Commons，成为下一轮知识与视角的起点”。
+
 ---
 
 ## 3. 命名形式偏好
@@ -161,6 +195,29 @@ Product Philosophy
 这可以暂称为 **Familiar-but-New / 熟悉而新生** 的命名方向。
 
 它不是硬性规则。完全现存词、复合词或真正优秀的全新造词仍然可以进入候选池。
+
+### 3.1 发音可用性与符号压缩性
+
+组织名称还需要考虑真实传播中的“可说、可记、可缩写”。后续候选至少应在以下两个维度之一表现良好，理想情况下两者兼具：
+
+**Pronounceability / 发音可用性**
+
+- 第一次看到名称时，读音应较容易推断；或
+- 即使是造词，也应能非常方便地规定一个自然、稳定、容易教学的官方读音；
+- 避免一个短词存在多种同样合理、但差异明显的读法；
+- 读音不应依赖复杂的词源知识才能解释。
+
+**Symbolic Compressibility / 符号压缩性**
+
+- 名称可以自然形成清晰的 initials / acronym；或
+- 可以自然形成具有识别度的 1–3 字符 shorthand / mark；或
+- 名称本身已经足够短、足够清楚，不需要缩写也能高效传播。
+
+这不是“所有名字都必须缩写”的硬规则。核心约束是：
+
+> **不能既难读，又难缩写。**
+
+`InteropAtlas → IA` 是符号压缩性较强的参考案例。`Knewn` 的语义密度较高，但其造词拼写会带来读音定义成本，同时 `KN / KNW` 暂未形成同等自然的短标识；`Traddere` 的读音较容易主动规定，但 `TR / TRA` 的品牌识别度仍有限。这些问题不直接淘汰候选，但应进入后续比较。
 
 ---
 
@@ -254,7 +311,7 @@ X + Atlas
 
 ### 4.9 古词 / 跨语言借词与再造
 
-从 Latin、Greek 或其他语言中寻找与“传递、共同体、创造、边界、知识”相关的词，再判断直接采用、音形调整或重新派生。
+从 Latin、Greek 或其他语言中寻找与“传递、共同体、创造、边界、知识、视角”相关的词，再判断直接采用、音形调整或重新派生。
 
 这里的目标不是制造“古典感”，而是寻找现代英语中已经失去或不够精确的语义资源。
 
@@ -275,7 +332,7 @@ Word Formation Strategy
         ↓
 Candidate Generation
         ↓
-Meaning / Sound / Form Screening
+Meaning / Pronunciation / Form / Symbolic Compression Screening
         ↓
 Collision / Domain / Trademark Screening
         ↓
@@ -300,7 +357,8 @@ Human Evaluation
 - 已被明显、广泛地作为相同或高度接近的品牌 / 项目名称使用；
 - 与重要既有组织、产品或商标高度接近；
 - 目标 `.org` 域名已无法注册；
-- 发音、听写或记忆成本明显过高；
+- 发音、听写或记忆成本明显过高，且没有自然、稳定的官方读音方案；
+- 名称同时缺乏发音可用性与符号压缩性；
 - 拼写变体看起来只是错误拼写，没有形成独立身份；
 - 主要语言中存在明显不合适的含义；
 - 与组织长期使命严重偏离；
@@ -369,19 +427,19 @@ Human Evaluation
 
 ### 7.7 当前恢复数量
 
-**26 个。**
+**25 个。**
 
-历史上曾经生成和筛选过远多于 26 个名称，可能达到上百个。但大量候选已经因为明显既有使用、名称高度接近、`.org` 不可注册或其他原因被筛除。
+历史上曾经生成和筛选过远多于 25 个名称，可能达到上百个。但大量候选已经因为明显既有使用、名称高度接近、`.org` 不可注册或其他原因被筛除。
 
 此前没有完整的组织级命名记录，因此本文只写入目前能够从历史上下文中可靠恢复的 surviving pool，不凭记忆补造已经无法确认的候选。
 
 后续如果从旧讨论、聊天记录或其他可靠记录中恢复出更多“当时仍存活”的名称，应继续补充本节，并记录来源与当时筛选状态。
 
-### 7.8 2026-09-06 硬筛选结果（CUDA 提交记录）
+### 7.8 2026-09-06 硬筛选结果（Qoder 提交记录）
 
-CUDA 本轮记录使用 PIR 官方 RDAP（`200`=已注册 / `404`=未注册）与 GitHub `users/` + `orgs/` 接口复查候选。域名与 GitHub 占用状态均为动态信息；以下保存其本轮检查结果，尚未替代上方历史 surviving pool。
+Qoder 本轮记录使用 PIR 官方 RDAP（`200`=已注册 / `404`=未注册）与 GitHub `users/` + `orgs/` 接口复查候选。域名与 GitHub 占用状态均为动态信息；以下保存其本轮检查结果，尚未替代上方历史 surviving pool。
 
-**`.org` 结果：26 个历史存活候选全部仍可注册（404）。**
+**`.org` 结果：25 个历史存活候选全部仍可注册（404）。**
 
 **GitHub 结果：**
 
@@ -390,13 +448,13 @@ CUDA 本轮记录使用 PIR 官方 RDAP（`200`=已注册 / `404`=未注册）�
 
 **进一步尽调记录：**
 
-- `Limenn`（Owner 曾观感不错）— 概念仍好（门槛 / 边界），但 CUDA 报告 GitHub 已有同名用户；拼写形式不可用于 GitHub 组织名，概念可换形式重造。
-- `Poietia` — CUDA 报告其与法国生物打印公司 `Poietis` 高度近似，建议淘汰。
+- `Limenn`（Owner 曾观感不错）— 概念仍好（门槛 / 边界），但 Qoder 报告 GitHub 已有同名用户；拼写形式不可用于 GitHub 组织名，概念可换形式重造。
+- `Poietia` — Qoder 报告其与法国生物打印公司 `Poietis` 高度近似，建议淘汰。
 - `Novuum` — 精确拼写未发现同名，但 `nov-` 词根品牌密度高，且“新”语义区分度有限，建议降级。
-- `Traddere` — 精确拼写未发现同名，但 `trad-` 家族密度较高，CUDA 评估为中等风险，保留备选。
-- `Knewn` — CUDA 报告未发现精确同名注册商标或活跃品牌；仅发现不同词 `KnewOne`，本轮尽调中最干净。
+- `Traddere` — 精确拼写未发现同名，但 `trad-` 家族密度较高，Qoder 评估为中等风险，保留备选。
+- `Knewn` — Qoder 报告未发现精确同名注册商标或活跃品牌；仅发现不同词 `KnewOne`，本轮尽调中最干净。
 
-> 注：以上是 CUDA 提交文件中的联网筛选结论，本次仓库更新只记录其候选池工作结果，没有把 Web 检索等同于官方商标法律检索，也没有据此改写产品哲学、命名方法或其他章节。
+> 注：以上是 Qoder 提交文件中的联网筛选结论，本次仓库更新只记录其候选池工作结果，没有把 Web 检索等同于官方商标法律检索。
 
 ---
 
@@ -419,10 +477,11 @@ CUDA 本轮记录使用 PIR 官方 RDAP（`200`=已注册 / `404`=未注册）�
 后续工作包括：
 
 1. 继续从历史记录恢复 surviving candidates，尤其是此前大规模 brainstorm 后已经经过第一轮筛选的名称；
-2. 用最新产品哲学重新评估 26 个现有候选，而不是机械沿用旧排名；
-3. 从新的语义空间继续生成候选，尤其关注 `Flow / Boundary / Commons / Create` 之间的组合；
-4. 对进入 shortlist 的名称重新检查当前 `.org`、GitHub / software project collision、组织 / 公司使用和商标风险；
-5. 随着组织身份逐渐收敛，继续把新的稳定命名结论沉淀在本组织级空间中。
+2. 用最新产品哲学重新评估 25 个现有候选，而不是机械沿用旧排名；
+3. 按 `Commons → Perspective → Creation → Commons ↺` 的扩展语义空间继续生成候选，重点补足 Perspective，并探索 Frontier / Continuity 等方向；
+4. 在候选生成阶段就检查 Pronounceability 与 Symbolic Compressibility，避免进入“既难读、又难缩写”的候选；
+5. 对进入 shortlist 的名称重新检查当前 `.org`、GitHub / software project collision、组织 / 公司使用和商标风险；
+6. 随着组织身份逐渐收敛，继续把新的稳定命名结论沉淀在本组织级空间中。
 
 ---
 
