@@ -315,6 +315,65 @@ X + Atlas
 
 这里的目标不是制造“古典感”，而是寻找现代英语中已经失去或不够精确的语义资源。
 
+### 4.10 使命短句 / 全称缩略命名（Mission-derived Acronym / Initialism）
+
+先形成一条真正成立的使命表达、组织全称或原则短句，再从中提取首字母，判断缩写本身能否成为稳定品牌。
+
+推荐流程：
+
+```text
+Mission / Philosophy
+        ↓
+Natural Phrase / Full Name
+        ↓
+Initials / Acronym
+        ↓
+Pronunciation + Memorability + Distinctiveness Test
+        ↓
+必要时微调原表达，但不为漂亮字母硬凑语义
+```
+
+这里需要区分两种结果：
+
+- **Initialism**：逐字母读，例如 `IA`；
+- **Acronym**：缩写本身可以像单词一样读，通常拥有更强的口语传播能力。
+
+成熟先例包括 `IKEA`：名称来自 Ingvar Kamprad、Elmtaryd 与 Agunnaryd 的首字母，但最终形成了一个可以整体发音的品牌词。GNU 则是 recursive acronym：`GNU's Not Unix`，同时还是一个真实单词；GNU 官方明确记录其名称选择同时考虑了递归结构、真实词形以及说起来有趣。
+
+核心规则：**先保证全称 / 短句自然成立，再看缩写是否优秀；不要先选一个漂亮缩写，再用生硬词汇倒填字母。**
+
+### 4.11 理念音节压缩（Phrase-to-Word Compression）
+
+这与首字母缩写不同：不是抽取 initials，而是从一句核心理念、短语或多个词中抽取音节、片段或声音骨架，最终压缩成一个可以独立使用的新单词。
+
+典型先例是 `LEGO`：LEGO 官方历史记录显示，Ole Kirk Kristiansen 将丹麦语 `LEG GODT`（“Play Well”）组合、压缩成 `LEGO`。这一方法说明，**理念可以保留在词源中，而最终品牌无需像全称一样描述使命。**
+
+这一路线与当前的 Familiar-but-New 偏好高度兼容，尤其适合把 `Commons → Perspective → Creation` 等长理念压缩成短而可发音的新词。
+
+### 4.12 独立全球短名（Independent Universal Short Name）
+
+正式全称、日常品牌名与词源不一定必须逐字对应。
+
+ISO 是重要先例。ISO 官方说明：`ISO` 是 International Organization for Standardization 的全球短名，但**不是该英文全称的 acronym**；它受到希腊语 `isos`（equal）的启发。由于组织全称及其 initials 会随语言变化，创始人采用 ISO 作为跨语言统一短名。
+
+这一先例打开了另一种结构：
+
+```text
+Descriptive / Legal Full Name
+        +
+Independent Universal Short Name
+        +
+Independent Semantic Origin
+```
+
+因此未来组织完全可以拥有一个较描述性的正式全称，同时采用一个独立、短、跨语言稳定的全球品牌名；不必强迫品牌名的每个字母映射正式全称。
+
+### 4.13 历史名称压缩与品牌独立化（Legacy-name Compression）
+
+组织名称还可能从历史长名称逐渐压缩为短品牌。3M 的官方历史记录其早期名称为 `Minnesota Mining and Manufacturing Company`，而 `3M` 最终成为全球通用的短品牌。
+
+这一先例说明：**组织的法律 / 历史名称与公众实际使用的品牌符号可以逐渐分离。** 对当前命名阶段而言，它更像一个长期结构参考，而不是必须从长全称开始的要求。
+
 ---
 
 ## 5. 候选生成流程
@@ -375,6 +434,83 @@ Human Evaluation
 “搜索不到明显同名”不等于可以注册商标，也不等于不存在普通法使用、公司名称、软件项目或跨司法辖区冲突。
 
 最终 shortlist 应重新进行系统化名称尽调。
+
+### 6.4 外部标准与先例反推的六项核心测试
+
+目前没有发现一个可以直接套用的、类似 ISO 技术标准那样的“组织名称国际统一起名标准”。ISO 20671-1:2021 存在，但其范围是 Brand evaluation 的原则与框架，而不是具体命名规则。因此本文采用“正式标准 / 商标规则 / 组织先例 / 开源命名实践”组合形成内部 Naming Standard。
+
+**1. Meaning / 意义**
+
+名称应与组织长期哲学存在真实联系，但不要求把使命全部描述出来。优先寻找能够暗示 `Commons / Perspective / Creation / Flow` 的名称，而不是完整说明组织业务。
+
+**2. Distinctiveness / 显著性**
+
+USPTO 将较强商标概括为 `fanciful / arbitrary / suggestive`，较弱者为 `descriptive / generic`。内部筛选因此优先造词、任意但可赋义的现存词、以及暗示型名称；降低纯描述型名称的优先级。
+
+**3. Fluency / 流畅性**
+
+USPTO 也明确建议考虑公众是否能够记住、发音和拼写名称。内部测试进一步扩展为：第一次看见是否容易读、第一次听见是否容易写、中文与英文使用者是否都能较稳定地传播。
+
+**4. Compression / 压缩性**
+
+名称本身应足够短，或能够形成自然、稳定的 short name / initials / acronym。若使用 acronym，优先考虑本身能够整体发音、形成独立词形的结果；若采用 ISO 型独立短名，则不要求与正式全称逐字对应。
+
+**5. Ownability / 可占有性**
+
+不能把 `.org` 与 GitHub 可用视为全部。Apache Software Foundation 的 Project Naming Policy 明确强调：应检查相同技术空间中的相似产品，并考虑用户听到项目名称后进行互联网搜索时，能否找到正确项目、是否会产生搜索结果混淆。
+
+因此 shortlist 后增加 **Search Distinctiveness Test**，至少检查：
+
+```text
+<Name>
+<Name> organization
+<Name> open source
+<Name> standards
+<Name> knowledge
+<Name> software / project
+```
+
+并与域名、GitHub、组织 / 公司名称、商标检索结合，而不是单独判断。
+
+**6. Longevity / 长期性**
+
+上层组织名称不能只描述当前 InteropAtlas 的某一个功能或阶段。它需要能够容纳未来的新项目、标准、知识基础设施与当前尚未定义的工作方向。
+
+可将内部快速筛选压缩为：
+
+```text
+Meaning
+Distinctiveness
+Fluency
+Compression
+Ownability
+Longevity
+```
+
+### 6.5 对拼写变体策略的进一步约束
+
+结合显著性与流畅性原则，纯粹为了获得可注册字符串而进行的双写 / typo 式修改应降低优先级。
+
+`Commonn / Knowwn / Horizzon / Eddge` 等历史形式并非因此自动淘汰，但后续评价必须回答：
+
+> **这个拼写变化是否真正贡献了独立身份、语义、声音或视觉价值？**
+
+如果答案只是“更容易获得域名 / 用户名”，则不足以构成强命名理由。
+
+### 6.6 外部参考来源（2026-09-06）
+
+本轮规则增补主要参考以下官方来源：
+
+- ISO — `ISO 20671-1:2021 Brand evaluation — Part 1: Principles and fundamentals`：确认存在品牌评价标准，但其范围不是具体命名方法；
+- ISO — `About ISO`：确认 ISO 是跨语言统一 short name，不是英文全称的 acronym，并源自希腊语 `isos`（equal）；
+- USPTO — `Strong trademarks`：采用 fanciful / arbitrary / suggestive 与 descriptive / generic 的显著性框架，并记录 remember / pronounce / spell 与跨语言含义检查；
+- LEGO — 官方历史：`LEG GODT` → `LEGO`，作为理念 / 短语音节压缩先例；
+- IKEA — 官方 heritage：Ingvar Kamprad + Elmtaryd + Agunnaryd → IKEA，作为可整体发音的 initials 品牌先例；
+- GNU Project — 官方历史：`GNU's Not Unix`，作为 recursive acronym + real word 的先例；
+- 3M — 官方历史：`Minnesota Mining and Manufacturing Company` → 3M，作为历史长名称压缩成独立品牌符号的先例；
+- Apache Software Foundation — `Project Naming Policy`：采用相似产品、搜索可发现性与同技术空间搜索混淆作为项目命名检查项。
+
+这些来源用于形成内部命名方法与筛选规则，不意味着它们共同构成一个现成的国际 Naming Standard。
 
 ---
 
@@ -479,9 +615,11 @@ Qoder 本轮记录使用 PIR 官方 RDAP（`200`=已注册 / `404`=未注册）�
 1. 继续从历史记录恢复 surviving candidates，尤其是此前大规模 brainstorm 后已经经过第一轮筛选的名称；
 2. 用最新产品哲学重新评估 25 个现有候选，而不是机械沿用旧排名；
 3. 按 `Commons → Perspective → Creation → Commons ↺` 的扩展语义空间继续生成候选，重点补足 Perspective，并探索 Frontier / Continuity 等方向；
-4. 在候选生成阶段就检查 Pronounceability 与 Symbolic Compressibility，避免进入“既难读、又难缩写”的候选；
-5. 对进入 shortlist 的名称重新检查当前 `.org`、GitHub / software project collision、组织 / 公司使用和商标风险；
-6. 随着组织身份逐渐收敛，继续把新的稳定命名结论沉淀在本组织级空间中。
+4. 同时使用 Existing Word、Semantic Fusion、Mission-derived Acronym、Phrase-to-Word Compression、Independent Universal Short Name 等不同命名机制，避免候选被单一造词公式限制；
+5. 在候选生成阶段就检查 Meaning / Distinctiveness / Fluency / Compression，避免进入“既难读、又难缩写”或纯描述性的候选；
+6. 对进入 shortlist 的名称执行 Ownability 检查：当前 `.org`、GitHub / software project collision、Search Distinctiveness、组织 / 公司使用和商标风险；
+7. 用 Longevity 检查上层组织名是否能够跨越 InteropAtlas 当前阶段继续成立；
+8. 随着组织身份逐渐收敛，继续把新的稳定命名结论沉淀在本组织级空间中。
 
 ---
 
