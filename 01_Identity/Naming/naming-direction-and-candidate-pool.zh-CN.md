@@ -377,6 +377,27 @@ Human Evaluation
 
 后续如果从旧讨论、聊天记录或其他可靠记录中恢复出更多“当时仍存活”的名称，应继续补充本节，并记录来源与当时筛选状态。
 
+### 7.8 2026-09-06 硬筛选结果（CUDA 提交记录）
+
+CUDA 本轮记录使用 PIR 官方 RDAP（`200`=已注册 / `404`=未注册）与 GitHub `users/` + `orgs/` 接口复查候选。域名与 GitHub 占用状态均为动态信息；以下保存其本轮检查结果，尚未替代上方历史 surviving pool。
+
+**`.org` 结果：26 个历史存活候选全部仍可注册（404）。**
+
+**GitHub 结果：**
+
+- 双硬条件均通过（14 个）：`Knewn` · `Knowwn` · `Knoward` · `Knewward` · `Traddere` · `Novuum` · `Poietia` · `Poiesiss` · `Poiessis` · `Commonss` · `Commonae` · `Middst` · `Verrge` · `Brinnk`
+- GitHub 已被占用（11 个）：`Commonn` · `Corpuss` · `Traditum` · `Rellay` · `Weavve` · `Onknown` · `Poeisis` · `Limenn` · `Lymmen` · `Horizzon` · `Eddge`
+
+**进一步尽调记录：**
+
+- `Limenn`（Owner 曾观感不错）— 概念仍好（门槛 / 边界），但 CUDA 报告 GitHub 已有同名用户；拼写形式不可用于 GitHub 组织名，概念可换形式重造。
+- `Poietia` — CUDA 报告其与法国生物打印公司 `Poietis` 高度近似，建议淘汰。
+- `Novuum` — 精确拼写未发现同名，但 `nov-` 词根品牌密度高，且“新”语义区分度有限，建议降级。
+- `Traddere` — 精确拼写未发现同名，但 `trad-` 家族密度较高，CUDA 评估为中等风险，保留备选。
+- `Knewn` — CUDA 报告未发现精确同名注册商标或活跃品牌；仅发现不同词 `KnewOne`，本轮尽调中最干净。
+
+> 注：以上是 CUDA 提交文件中的联网筛选结论，本次仓库更新只记录其候选池工作结果，没有把 Web 检索等同于官方商标法律检索，也没有据此改写产品哲学、命名方法或其他章节。
+
 ---
 
 ## 8. 历史主观反馈
