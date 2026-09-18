@@ -43,6 +43,12 @@
 
 这个循环是组织理解“知识如何产生长期公共价值”的核心模型。它不是线性漏斗，而是持续反馈和扩展的循环。
 
+一个更短的动态表达是：
+
+> **Knowledge travels. Creation continues.**
+>
+> **知识流动，创造不息。**
+
 ## 5. Enabling Principles / 实现原则
 
 这些原则服务于使命与变化模型，但它们本身不是组织最终目的：
@@ -53,7 +59,21 @@
 - **Individual Agency / 个人主体性**：公共基础和智能工具应扩展个人形成视角与创造的能力，而不是替代个人视角。
 - **Reciprocity / 回流与互惠**：创造不仅从 commons 获取，也应保留重新贡献、复用和扩展 commons 的路径。
 
-## 6. Relationship to InteropAtlas / 与 InteropAtlas 的关系
+## 6. Organizational Inquiry / 组织探索
+
+> **Explore the boundaries of organization.**
+>
+> **探索组织的边界。**
+
+组织不仅承载项目，也可以把自身作为持续实验对象：通过构建、运行、观察并持续修改真实组织，探索自主主体如何形成、维持、重构和演化出不同形式的组织。
+
+这里的“自主主体”不预先限定为人类、AI Agent、软件、机器人、团队、公司或其他既有类型；研究重点也不预设为某一个单一现象。组织可以持续观察主体之间的互动、耦合、分工、规则、权力、学习、适应、冲突、协作、制度形成、集体能力与其他可能出现的组织现象。
+
+因此，本组织采用一种**自指 / 反身性的研究立场**：组织既是研究者，也是被研究对象。组织在真实项目中的协作方式、拓扑、团队模板、状态机制、治理规则和 Human–Agent 关系，都可以被视为可观察、可修改、可复用的组织实验材料。
+
+这不是要预先定义“组织最终应该是什么”，而是明确长期追问：**组织还能是什么？它的边界在哪里？**
+
+## 7. Relationship to InteropAtlas / 与 InteropAtlas 的关系
 
 **InteropAtlas 是这套组织级哲学与使命之下的一个具体项目，而不是组织本身的边界。**
 
@@ -65,7 +85,9 @@ InteropAtlas 主要处理其中的 interoperability 层：理解和描绘标准�
 - InteropAtlas 重点解决让这个循环得以发生的一类基础条件——**interoperability**；
 - 未来其他项目可以分别作用于 commons、perspective、creation 或它们之间的连接，而不需要被 InteropAtlas 当前的产品形态所限制。
 
-## 7. Identity Hierarchy / 身份层级
+InteropAtlas 与这条组织探索线互相反馈：它对 interoperability 的研究可以帮助组织自身更好地与其他主体、系统和环境耦合；而组织在真实协作中的实验，也可以反过来暴露新的 interoperability 问题。
+
+## 8. Identity Hierarchy / 身份层级
 
 从稳定到具体，组织身份按以下层级理解：
 
